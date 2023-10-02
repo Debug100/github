@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>github</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        header {
+            background-size: cover;
+            background-image: url(https://github.githubassets.com/images/modules/site/preview/features-preview-bg-1600.jpg);
+
+        }
+
+        .container-1 {
+            width: 100%;
+            height: 70px;
+            padding: 0 30px;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .container-1 .sign-up {
+            background-color: black;
+            color: white;
+            width: 62px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px white solid;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 0.7px;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+        }
+
+        .container-1 .fa-github {
+            font-size: 40px;
+            color: #ffff;
+            cursor: pointer;
+        }
+
+        .container-1 .fa-bars {
+            font-size: 18px;
+            color: #ffff;
+            cursor: pointer;
+        }
+
+        .container-2 h1 {
+            color: #ffff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            margin-top: 100px;
+            margin-bottom: 0;
+            margin-left: 50px;
+            font-size: 50px;
+        }
+
+        .container-2 p {
+            color: #7d8590;
+            margin-left: 50px;
+            padding-bottom: 100px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+        }
+
+        section {
+            background-image: linear-gradient(90deg, #0e121a, #0d1115, #0d1116, #0d1117);
+            margin-top: -20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        article {
+            margin: 2%;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 30px;
+            cursor: pointer;
+            width: 300px;
+        }
+
+        article:hover {
+            background-color: #1a2141;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        article .robot-limited {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        article .fa-robot {
+            color: #8b92f1;
+            font-size: 20px;
+        }
+
+        article .Limited {
+            background-color: #161b22;
+            color: #f8f8f8;
+            width: 84px;
+            height: 30px;
+            border-radius: 17px;
+            border: 1px #7d8590 solid;
+            font-size: 13px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+
+        article h2 {
+            color: #ffff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin: 13px 0;
+        }
+
+        article p {
+            color: #6a717b;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        article h3 {
+            color: #ffff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            display: flex;
+            align-items: flex-end;
+            flex-grow: 2;
+        }
+
+        article .fa-minus {
+            font-size: 12px;
+            padding-bottom: 5.2px;
+            padding-left: 5px;
+            margin-right: -4px;
+            color: transparent;
+        }
+
+        article .fa-chevron-right {
+            font-size: 10px;
+            font-size: 10px;
+            padding-bottom: 7.2px;
+            margin-left: -4px;
+        }
+
+        article:hover .fa-minus {
+            color: #ffff;
+        }
+
+        article:hover .fa-chevron-right {
+            margin-left: -2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-1">
+            <button class="sign-up">Sign up</button>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="container-2">
+            <h1>The latest GitHub
+                <br />
+                previews ✨
+            </h1>
+            <p>Be the first to try out GitHub’s new features</p>
+        </div>
+    </header>
+    <section>
+        <article>
+            <a href="" target="_blank">
+                <div class="robot-limited">
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <button class="Limited">Limited</button>
+                </div>
+                <h2>Copilot for pull requests</h2>
+                <p>Brings GitHub Copilot to your pull requests to keep track of your work, suggest descriptions, and
+                    help
+                    reviewers reason about your changes with a code walkthrough.
+                </p>
+                <h3> Add a repo to the waitlist
+                    <i class="fa-solid fa-minus"></i><i class="fa-solid fa-chevron-right"></i>
+                </h3>
+            </a>
+        </article>
+        <article>
+            <a href="" target="_blank">
+                <div class="robot-limited">
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <button class="Limited">Limited</button>
+                </div>
+                <h2>Copilot chat</h2>
+                <p>Ask GitHub Copilot to explain a piece of code, propose bug fixes, or generate unit tests in a chat
+                    interface from your editor.
+                </p>
+                <h3>Join the waitlist
+                    <i class="fa-solid fa-minus"></i><i class="fa-solid fa-chevron-right"></i>
+                </h3>
+            </a>
+        </article>
+        <article>
+            <a href="" target="_blank">
+                <div class="robot-limited">
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <button class="Limited">Limited</button>
+                </div>
+                <h2>Copilot for docs</h2>
+                <p>Spend less time searching and more time learning, by getting personalized answers that are grounded
+                    in
+                    maintainer-written documentation.
+                </p>
+
+                <h3> Join the waitlist
+                    <i class="fa-solid fa-minus"></i><i class="fa-solid fa-chevron-right"></i>
+                </h3>
+            </a>
+        </article>
+        <article>
+            <a href="" target="_blank">
+                <div class="robot-limited">
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <button class="Limited">Limited</button>
+                </div>
+                <h2> Copilot for CLI</h2>
+                <p>Ask GitHub Copilot for assistance right in your terminal.
+                </p>
+                <h3>Join the waitlist
+                    <i class="fa-solid fa-minus"></i><i class="fa-solid fa-chevron-right"></i>
+                </h3>
+            </a>
+        </article>
+        <article>
+            <a href="" target="_blank">
+                <div class="robot-limited">
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <button class="Limited">Limited</button>
+                </div>
+                <h2>Copilot Voice</h2>
+                <p>Enables voice-based interaction with GitHub Copilot, bringing the tool’s benefits to those who can’t
+                    and can use a
+                </p>
+                <h3>Join the waitlist
+                    <i class="fa-solid fa-minus"></i><i class="fa-solid fa-chevron-right"></i>
+                </h3>
+            </a>
+        </article>
+        <article>
+            <a href="" target="_blank">
+                <div class="robot-limited">
+                    <i class="fa-sharp fa-solid fa-robot"></i>
+                    <button class="Limited">Public</button>
+                </div>
+                <h2>Code search & code view</h2>
+                <p> Enables you to rapidly search, navigate, and understand code, right from GitHub.com.
+                </p>
+                <h3>Try it out today
+                    <i class="fa-solid fa-minus"></i><i class="fa-solid fa-chevron-right"></i>
+                </h3>
+            </a>
+        </article>
+
+    </section>
+</body>
+
+</html>
